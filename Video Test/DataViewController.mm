@@ -24,13 +24,12 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    self.dataLabel = nil;
+    self.videoButton = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -40,6 +39,24 @@
     } else {
         return YES;
     }
+}
+
+- (IBAction)playVideo:(id)sender
+{
+    NSLog(@"clicked play video");
+    NSString * videoURL= @"http://www.youtube.com/watch?v=oHg5SJYRHA0";
+    NSLog(@"URL Address : %@",videoURL);
+    
+    //Create a URL object.
+    NSURL *url = [NSURL URLWithString:videoURL];
+    
+    MPMoviePlayerController * movie = [[MPMoviePlayerController alloc] initWithContentURL:url];
+    movie.scalingMode = MPMovieScalingModeAspectFill;
+    [movie prepareToPlay];
+    movie.view.frame = CGRectMake(10.0, 10.0, 100.0, 100.0);
+    [self.view addSubview:movie.view];
+    [self.view bringSubviewToFront:movie.view];
+    [movie play];
 }
 
 @end

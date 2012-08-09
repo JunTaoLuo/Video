@@ -11,11 +11,11 @@
 		4667520815D35B4100F77180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667520715D35B4100F77180 /* Foundation.framework */; };
 		4667520A15D35B4100F77180 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667520915D35B4100F77180 /* CoreGraphics.framework */; };
 		4667521015D35B4100F77180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4667520E15D35B4100F77180 /* InfoPlist.strings */; };
-		4667521215D35B4100F77180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667521115D35B4100F77180 /* main.m */; };
-		4667521615D35B4100F77180 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667521515D35B4100F77180 /* AppDelegate.m */; };
-		4667521915D35B4100F77180 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667521815D35B4100F77180 /* RootViewController.m */; };
-		4667521C15D35B4100F77180 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667521B15D35B4100F77180 /* DataViewController.m */; };
-		4667521F15D35B4100F77180 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667521E15D35B4100F77180 /* ModelController.m */; };
+		4667521215D35B4100F77180 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4667521115D35B4100F77180 /* main.mm */; };
+		4667521615D35B4100F77180 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4667521515D35B4100F77180 /* AppDelegate.mm */; };
+		4667521915D35B4100F77180 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4667521815D35B4100F77180 /* RootViewController.mm */; };
+		4667521C15D35B4100F77180 /* DataViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4667521B15D35B4100F77180 /* DataViewController.mm */; };
+		4667521F15D35B4100F77180 /* ModelController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4667521E15D35B4100F77180 /* ModelController.mm */; };
 		4667522215D35B4100F77180 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667522015D35B4100F77180 /* MainStoryboard_iPhone.storyboard */; };
 		4667522515D35B4100F77180 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667522315D35B4100F77180 /* MainStoryboard_iPad.storyboard */; };
 		4667522D15D35B4100F77180 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667522C15D35B4100F77180 /* SenTestingKit.framework */; };
@@ -23,6 +23,7 @@
 		4667522F15D35B4100F77180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667520715D35B4100F77180 /* Foundation.framework */; };
 		4667523715D35B4100F77180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4667523515D35B4100F77180 /* InfoPlist.strings */; };
 		4667523A15D35B4100F77180 /* Video_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667523915D35B4100F77180 /* Video_TestTests.m */; };
+		4667524415D3654200F77180 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667524315D3654200F77180 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +43,16 @@
 		4667520915D35B4100F77180 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4667520D15D35B4100F77180 /* Video Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Test-Info.plist"; sourceTree = "<group>"; };
 		4667520F15D35B4100F77180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4667521115D35B4100F77180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4667521115D35B4100F77180 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		4667521315D35B4100F77180 /* Video Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video Test-Prefix.pch"; sourceTree = "<group>"; };
 		4667521415D35B4100F77180 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4667521515D35B4100F77180 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4667521515D35B4100F77180 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		4667521715D35B4100F77180 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		4667521815D35B4100F77180 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4667521815D35B4100F77180 /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		4667521A15D35B4100F77180 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		4667521B15D35B4100F77180 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		4667521B15D35B4100F77180 /* DataViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DataViewController.mm; sourceTree = "<group>"; };
 		4667521D15D35B4100F77180 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		4667521E15D35B4100F77180 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		4667521E15D35B4100F77180 /* ModelController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ModelController.mm; sourceTree = "<group>"; };
 		4667522115D35B4100F77180 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4667522415D35B4100F77180 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4667522B15D35B4100F77180 /* Video TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video TestTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,7 @@
 		4667523615D35B4100F77180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4667523815D35B4100F77180 /* Video_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video_TestTests.h; sourceTree = "<group>"; };
 		4667523915D35B4100F77180 /* Video_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video_TestTests.m; sourceTree = "<group>"; };
+		4667524315D3654200F77180 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4667524415D3654200F77180 /* MediaPlayer.framework in Frameworks */,
 				4667520615D35B4100F77180 /* UIKit.framework in Frameworks */,
 				4667520815D35B4100F77180 /* Foundation.framework in Frameworks */,
 				4667520A15D35B4100F77180 /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +111,7 @@
 		4667520415D35B4100F77180 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4667524315D3654200F77180 /* MediaPlayer.framework */,
 				4667520515D35B4100F77180 /* UIKit.framework */,
 				4667520715D35B4100F77180 /* Foundation.framework */,
 				4667520915D35B4100F77180 /* CoreGraphics.framework */,
@@ -120,13 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				4667521415D35B4100F77180 /* AppDelegate.h */,
-				4667521515D35B4100F77180 /* AppDelegate.m */,
+				4667521515D35B4100F77180 /* AppDelegate.mm */,
 				4667521715D35B4100F77180 /* RootViewController.h */,
-				4667521815D35B4100F77180 /* RootViewController.m */,
+				4667521815D35B4100F77180 /* RootViewController.mm */,
 				4667521A15D35B4100F77180 /* DataViewController.h */,
-				4667521B15D35B4100F77180 /* DataViewController.m */,
+				4667521B15D35B4100F77180 /* DataViewController.mm */,
 				4667521D15D35B4100F77180 /* ModelController.h */,
-				4667521E15D35B4100F77180 /* ModelController.m */,
+				4667521E15D35B4100F77180 /* ModelController.mm */,
 				4667522015D35B4100F77180 /* MainStoryboard_iPhone.storyboard */,
 				4667522315D35B4100F77180 /* MainStoryboard_iPad.storyboard */,
 				4667520C15D35B4100F77180 /* Supporting Files */,
@@ -139,7 +143,7 @@
 			children = (
 				4667520D15D35B4100F77180 /* Video Test-Info.plist */,
 				4667520E15D35B4100F77180 /* InfoPlist.strings */,
-				4667521115D35B4100F77180 /* main.m */,
+				4667521115D35B4100F77180 /* main.mm */,
 				4667521315D35B4100F77180 /* Video Test-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -272,11 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4667521215D35B4100F77180 /* main.m in Sources */,
-				4667521615D35B4100F77180 /* AppDelegate.m in Sources */,
-				4667521915D35B4100F77180 /* RootViewController.m in Sources */,
-				4667521C15D35B4100F77180 /* DataViewController.m in Sources */,
-				4667521F15D35B4100F77180 /* ModelController.m in Sources */,
+				4667521215D35B4100F77180 /* main.mm in Sources */,
+				4667521615D35B4100F77180 /* AppDelegate.mm in Sources */,
+				4667521915D35B4100F77180 /* RootViewController.mm in Sources */,
+				4667521C15D35B4100F77180 /* DataViewController.mm in Sources */,
+				4667521F15D35B4100F77180 /* ModelController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

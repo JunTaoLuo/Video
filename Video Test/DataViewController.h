@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DataViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *dataLabel;
+@property (strong, nonatomic) IBOutlet UIButton * videoButton;
 @property (strong, nonatomic) id dataObject;
+
+- (IBAction)playVideo:(id)sender;
 
 @end
