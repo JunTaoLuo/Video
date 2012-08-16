@@ -5,6 +5,7 @@
 //  Created by Jun Tao Luo on 2012-08-08.
 //  Copyright (c) 2012 Jun Tao Luo. All rights reserved.
 //
+// Testing new code
 
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
