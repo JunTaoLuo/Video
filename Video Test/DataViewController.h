@@ -13,7 +13,8 @@
 
 @property (strong, nonatomic) IBOutlet UIButton * videoButton;
 @property (strong, nonatomic) id dataObject;
+@property (nonatomic, retain) NSDictionary *videos;
 
-- (IBAction)playVideo:(id)sender;
+- (void)embedYouTube:(NSString *)urlString frame:(CGRect)frame;
 
 @end

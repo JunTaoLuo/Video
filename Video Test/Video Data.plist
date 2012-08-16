@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Humor</key>
+	<array>
+		<string>http://www.youtube.com/watch?v=2Z4m4lnjxkY</string>
+		<string>http://www.youtube.com/watch?v=oHg5SJYRHA0</string>
+	</array>
+	<key>Music</key>
+	<array>
+		<string>http://www.youtube.com/watch?v=0VQG92nsOKI</string>
+		<string>http://www.youtube.com/watch?v=-v42pkodIlw</string>
+	</array>
+</dict>
+</plist>

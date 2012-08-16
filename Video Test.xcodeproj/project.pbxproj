@@ -24,6 +24,7 @@
 		4667523715D35B4100F77180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4667523515D35B4100F77180 /* InfoPlist.strings */; };
 		4667523A15D35B4100F77180 /* Video_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4667523915D35B4100F77180 /* Video_TestTests.m */; };
 		4667524415D3654200F77180 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4667524315D3654200F77180 /* MediaPlayer.framework */; };
+		46D00AE715D697400016091B /* Video Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D00AE615D697400016091B /* Video Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4667523815D35B4100F77180 /* Video_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video_TestTests.h; sourceTree = "<group>"; };
 		4667523915D35B4100F77180 /* Video_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video_TestTests.m; sourceTree = "<group>"; };
 		4667524315D3654200F77180 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		46D00AE615D697400016091B /* Video Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Video Data.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				4667520E15D35B4100F77180 /* InfoPlist.strings */,
 				4667521115D35B4100F77180 /* main.mm */,
 				4667521315D35B4100F77180 /* Video Test-Prefix.pch */,
+				46D00AE615D697400016091B /* Video Data.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				4667521015D35B4100F77180 /* InfoPlist.strings in Resources */,
 				4667522215D35B4100F77180 /* MainStoryboard_iPhone.storyboard in Resources */,
 				4667522515D35B4100F77180 /* MainStoryboard_iPad.storyboard in Resources */,
+				46D00AE715D697400016091B /* Video Data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +468,7 @@
 				4667523F15D35B4100F77180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4667524015D35B4100F77180 /* Build configuration list for PBXNativeTarget "Video TestTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				4667524215D35B4100F77180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
